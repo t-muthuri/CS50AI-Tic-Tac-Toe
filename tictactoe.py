@@ -117,7 +117,7 @@ def tie(board, palyer):
         for col in range(len(board[0])):
             if board[row][col] is not EMPTY:
                 countEmpty -= 1
-    return == 0
+    return 0
 
 
 def terminal(board):
